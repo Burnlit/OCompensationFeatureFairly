@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 
-import debug from "sabio-debug";
+import debug from "debugger";
 const _logger = debug.extend("CompensationLabelSelect");
 
 const animatedSelect = makeAnimated();
