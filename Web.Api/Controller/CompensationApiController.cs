@@ -2,23 +2,23 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain.Blogs;
-using Sabio.Models.Domain.Compensations;
-using Sabio.Models.Domain.CompensationTypeLabels;
-using Sabio.Models.Requests;
-using Sabio.Models.Requests.Blogs;
-using Sabio.Models.Requests.Compensations;
-using Sabio.Models.Requests.CompensationType;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Models;
+using Models.Domain.Blogs;
+using Models.Domain.Compensations;
+using Models.Domain.CompensationTypeLabels;
+using Models.Requests;
+using Models.Requests.Blogs;
+using Models.Requests.Compensations;
+using Models.Requests.CompensationType;
+using Services;
+using Services.Interfaces;
+using Web.Controllers;
+using Web.Models.Responses;
 using SendGrid;
 using System;
 using System.Collections.Generic;
 
-namespace Sabio.Web.Api.Controllers
+namespace Web.Api.Controllers
 {
     [Route("api/compensations")]
     [ApiController]
