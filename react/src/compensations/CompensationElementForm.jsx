@@ -11,7 +11,7 @@ import compensationElementFormSchema from "../../schemas/compensationElementForm
 import compensationElementService from "../../services/compensationElementService";
 import toastr from "toastr";
 
-import debug from "sabio-debug";
+import debug from "debugger";
 const _logger = debug.extend("CompensationElementForm");
 
 function CompensationElementForm(props) {
