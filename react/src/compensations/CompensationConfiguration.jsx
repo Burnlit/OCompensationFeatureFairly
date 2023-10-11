@@ -9,7 +9,7 @@ import {
 import { get3Col } from "../../services/lookUpService";
 import toastr from "toastr";
 import CompensationLabelSelect from "./CompensationLabelSelect";
-import debug from "sabio-debug";
+import debug from "debugger";
 const _logger = debug.extend("CompensationConfiguration");
 
 function CompensationConfiguration() {
