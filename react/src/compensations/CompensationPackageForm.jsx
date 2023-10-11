@@ -10,7 +10,7 @@ import toastr from "toastr";
 import { useLocation, useNavigate } from "react-router-dom";
 import CompensationElementForm from "./CompensationElementForm";
 
-import debug from "sabio-debug";
+import debug from "debugger";
 const _logger = debug.extend("CompensationPackageForm");
 
 function CompensationPackageForm(props) {
