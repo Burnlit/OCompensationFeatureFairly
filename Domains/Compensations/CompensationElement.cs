@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.Compensations
+namespace Models.Domain.Compensations
 {
     public class CompensationElement
     {
