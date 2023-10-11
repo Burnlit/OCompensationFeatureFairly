@@ -7,7 +7,7 @@ import organizationServices from "../../services/organizationService";
 import compensationElementService from "../../services/compensationElementService";
 import PropTypes from "prop-types";
 import Swal from "sweetalert2";
-import debug from "sabio-debug";
+import debug from "debugger";
 import toastr from "toastr";
 import "./compensationpackages.css";
 import { useLocation, useNavigate } from "react-router-dom";
