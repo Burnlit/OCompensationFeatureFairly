@@ -1,15 +1,15 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain.Compensations;
-using Sabio.Models.Domain.CompensationTypeLabels;
-using Sabio.Models.Requests.Compensations;
-using Sabio.Models.Requests.CompensationType;
+﻿using Models;
+using Models.Domain.Compensations;
+using Models.Domain.CompensationTypeLabels;
+using Models.Requests.Compensations;
+using Models.Requests.CompensationType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services.Interfaces
+namespace Services.Interfaces
 {
     public interface ICompensationService
     {
