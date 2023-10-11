@@ -1,4 +1,4 @@
-﻿using Sabio.Models.Domain.Organizations;
+﻿using Models.Domain.Organizations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
