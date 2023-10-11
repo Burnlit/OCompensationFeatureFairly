@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.CompensationTypeLabels
+namespace Models.Domain.CompensationTypeLabels
 {
     public class CompensationTypeLabel
     {
