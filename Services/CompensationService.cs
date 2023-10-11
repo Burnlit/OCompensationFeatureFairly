@@ -1,4 +1,4 @@
-﻿using Sabio.Data.Providers;
+﻿using Data.Providers;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,23 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging.Console;
 
-using Sabio.Services.Interfaces;
-using Sabio.Models.Domain.Compensations;
-using Sabio.Data;
-using Sabio.Models;
-using Sabio.Models.Requests.Compensations;
-using Sabio.Models.Domain;
+using Services.Interfaces;
+using Models.Domain.Compensations;
+using Data;
+using Models;
+using Models.Requests.Compensations;
+using Models.Domain;
 using System.Xml.Linq;
 using Stripe;
-using Sabio.Models.Domain.Organizations;
-using Sabio.Models.Domain.Blogs;
-using Sabio.Models.Domain.CompensationTypeLabels;
-using Sabio.Models.Requests.CompensationType;
-using Sabio.Models.Domain.Locations;
-using Sabio.Models.Requests;
+using Models.Domain.Organizations;
+using Models.Domain.Blogs;
+using Models.Domain.CompensationTypeLabels;
+using Models.Requests.CompensationType;
+using Models.Domain.Locations;
+using Models.Requests;
 using System.ComponentModel.DataAnnotations;
 
-namespace Sabio.Services
+namespace Services
 {
     public class CompensationService : ICompensationService
     {
